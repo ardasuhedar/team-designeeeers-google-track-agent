@@ -131,6 +131,20 @@ Observed result for the aligned `counter` experiment:
 - 0 compile failures
 - passing mutant: `mutant_11.v`
 
+## Experiment Coverage
+
+The project-side workflow has been exercised on multiple visible Google Track problems rather than only a single toy example.
+
+Problems covered so far:
+
+- `counter`: produced a successful discriminative result with the project-side workflow aligned to the benchmark-side evaluation behavior
+- `enc_bin2gray`: was also tested using the same workflow, with a problem-specific combinational testbench generated in this repository
+- `fifo_flops`: was tested as a harder stateful FIFO and handshake benchmark, requiring problem-specific checks for reset, buffering, bypass behavior, and status signals
+
+The file `generated/tb.v` is problem-specific and reflects only the current active experiment.
+This repository does not rely on one fixed reusable testbench across all Google Track problems.
+Instead, the workflow regenerates a new Verilog testbench for each selected problem based on the active brief in `specs/problem.txt` and the corresponding external benchmark reference.
+
 ## Notes
 
 - The files in `examples/comparator/` are preserved from the initial toy prototype.
