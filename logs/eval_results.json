@@ -1,6 +1,6 @@
 [
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_0.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_0.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -13,12 +13,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_0.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_0.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stdout": "FAIL: single_bit_4 bin=16 expected_gray=0000011000 got_gray=0000001000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 5000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -28,7 +28,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_1.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_1.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -41,12 +41,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_1.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_1.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by three (before rising edge): value_next expected 10 got 8\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 31000 (1ps)\n",
+      "stdout": "FAIL: single_bit_4 bin=16 expected_gray=0000011000 got_gray=0000010000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 5000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -56,7 +56,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_10.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_10.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -69,12 +69,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_10.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_10.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: msb_one bin=512 expected_gray=1100000000 got_gray=0100000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 7000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -84,7 +84,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_11.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_11.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -97,22 +97,22 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_11.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_11.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "TESTS PASSED\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:254: $finish called at 256000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000100\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
         "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_11.out"
       ]
     },
-    "status": "pass"
+    "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_12.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_12.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -125,12 +125,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_12.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_12.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after simultaneous incr and decr net minus two (before rising edge): value_next expected 7 got 6\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 71000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000100\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -140,7 +140,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_13.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_13.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -153,12 +153,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_13.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_13.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000100\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -168,7 +168,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_14.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_14.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -181,12 +181,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_14.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_14.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0100000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -196,7 +196,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_15.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_15.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -209,12 +209,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_15.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_15.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 2\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: alternating_a bin=682 expected_gray=1111111111 got_gray=1110111111\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 9000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -224,7 +224,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_16.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_16.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -237,12 +237,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_16.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_16.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: lsb_one bin=1 expected_gray=0000000001 got_gray=0000000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 2000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -252,7 +252,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_17.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_17.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -265,12 +265,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_17.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_17.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0100000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -280,7 +280,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_18.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_18.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -293,12 +293,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_18.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_18.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after reinit to zero (after rising edge): value expected 0 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:91: $finish called at 236000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -308,7 +308,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_19.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_19.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -321,12 +321,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_19.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_19.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -336,7 +336,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_2.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_2.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -349,12 +349,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_2.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_2.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000010\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -364,7 +364,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_20.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_20.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -377,12 +377,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_20.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_20.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: msb_one bin=512 expected_gray=1100000000 got_gray=0100000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 7000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -392,7 +392,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_21.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_21.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -405,12 +405,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_21.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_21.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after decrement by two (after rising edge): value_next expected 6 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 46000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -420,7 +420,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_22.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_22.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -433,12 +433,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_22.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_22.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -448,7 +448,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_23.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_23.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -461,12 +461,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_23.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_23.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after decrement by two (after rising edge): value expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:91: $finish called at 46000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000010\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -476,7 +476,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_24.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_24.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -489,12 +489,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_24.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_24.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: single_bit_8 bin=256 expected_gray=0110000000 got_gray=0010000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 6000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -504,7 +504,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_25.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_25.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -517,22 +517,22 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_25.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_25.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stdout": "TESTS PASSED\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:96: $finish called at 1042000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
         "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_25.out"
       ]
     },
-    "status": "fail"
+    "status": "pass"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_26.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_26.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -545,12 +545,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_26.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_26.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000010\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -560,7 +560,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_27.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_27.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -573,12 +573,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_27.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_27.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000010000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -588,7 +588,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_28.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_28.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -601,12 +601,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_28.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_28.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -616,7 +616,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_29.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_29.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -629,12 +629,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_29.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_29.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -644,7 +644,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_3.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_3.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -657,12 +657,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_3.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_3.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000100000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -672,7 +672,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_30.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_30.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -685,12 +685,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_30.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_30.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 14\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000100\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -700,7 +700,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_4.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_4.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -713,12 +713,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_4.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_4.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: single_bit_1 bin=2 expected_gray=0000000011 got_gray=0000000001\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 3000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -728,7 +728,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_5.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_5.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -741,12 +741,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_5.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_5.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 6\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0010000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -756,7 +756,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_6.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_6.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -769,12 +769,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_6.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_6.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000000010\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -784,7 +784,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_7.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_7.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -797,12 +797,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_7.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_7.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 2\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0000010000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -812,7 +812,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_8.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_8.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -825,12 +825,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_8.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_8.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: single_bit_2 bin=4 expected_gray=0000000110 got_gray=0000000010\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 4000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
@@ -840,7 +840,7 @@
     "status": "fail"
   },
   {
-    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_9.v",
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_9.v",
     "compile": {
       "returncode": 0,
       "stdout": "",
@@ -853,12 +853,12 @@
         "-s",
         "tb",
         "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
-        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_9.v"
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/enc_bin2gray/mutant_9.v"
       ]
     },
     "simulation": {
       "returncode": 0,
-      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stdout": "FAIL: all_zero bin=0 expected_gray=0000000000 got_gray=0001000000\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:38: $finish called at 1000 (1ps)\n",
       "stderr": "",
       "command": [
         "vvp",
