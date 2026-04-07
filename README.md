@@ -4,6 +4,17 @@ Team DesignEEErs
 
 Codex-based Verilog testbench generation and evaluation for visible Google Track verification problems.
 
+## Team
+
+Team DesignEEErs
+
+This is a group project for Topic 2: AI for Design Verification (Google Track).
+
+### Members
+
+- Arda Suhedar
+- Mertkan Riza Yulu
+
 This repository is the project repository of Team DesignEEErs for Topic 2: AI for Design Verification (Google Track).
 Its purpose is to drive a Codex-based workflow that reads a natural language hardware problem, generates a Verilog testbench, and evaluates that testbench against RTL candidates from the professor-provided benchmark repository.
 
