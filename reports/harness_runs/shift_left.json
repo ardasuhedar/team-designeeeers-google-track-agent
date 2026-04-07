@@ -1,0 +1,51 @@
+{
+  "problems_evaluated": 1,
+  "problems": [
+    {
+      "problem": "shift_left",
+      "generated_testbench": "/Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/shift_left/tb.v",
+      "evaluated_candidates": 31,
+      "status_counts": {
+        "pass": 8,
+        "fail": 23,
+        "compile_failed": 0
+      },
+      "passing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_0.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_1.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_11.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_12.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_13.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_14.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_16.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_4.v"
+      ],
+      "failing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_10.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_15.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_17.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_18.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_19.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_2.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_20.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_21.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_22.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_23.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_24.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_25.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_26.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_27.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_28.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_29.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_3.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_30.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_5.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_6.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_7.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_8.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/shift_left/mutant_9.v"
+      ],
+      "compile_failed_candidates": []
+    }
+  ]
+}

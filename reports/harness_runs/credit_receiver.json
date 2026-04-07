@@ -1,0 +1,51 @@
+{
+  "problems_evaluated": 1,
+  "problems": [
+    {
+      "problem": "credit_receiver",
+      "generated_testbench": "/Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/credit_receiver/tb.v",
+      "evaluated_candidates": 31,
+      "status_counts": {
+        "pass": 5,
+        "fail": 26,
+        "compile_failed": 0
+      },
+      "passing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_10.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_12.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_13.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_15.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_17.v"
+      ],
+      "failing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_0.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_1.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_11.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_14.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_16.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_18.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_19.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_2.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_20.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_21.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_22.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_23.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_24.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_25.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_26.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_27.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_28.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_29.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_3.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_30.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_4.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_5.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_6.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_7.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_8.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/credit_receiver/mutant_9.v"
+      ],
+      "compile_failed_candidates": []
+    }
+  ]
+}

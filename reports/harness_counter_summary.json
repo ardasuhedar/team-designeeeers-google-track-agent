@@ -1,0 +1,51 @@
+{
+  "problems_evaluated": 1,
+  "problems": [
+    {
+      "problem": "counter",
+      "generated_testbench": "/Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/counter/tb.v",
+      "evaluated_candidates": 31,
+      "status_counts": {
+        "pass": 1,
+        "fail": 30,
+        "compile_failed": 0
+      },
+      "passing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_11.v"
+      ],
+      "failing_candidates": [
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_0.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_1.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_10.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_12.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_13.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_14.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_15.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_16.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_17.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_18.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_19.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_2.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_20.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_21.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_22.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_23.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_24.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_25.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_26.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_27.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_28.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_29.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_3.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_30.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_4.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_5.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_6.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_7.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_8.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_9.v"
+      ],
+      "compile_failed_candidates": []
+    }
+  ]
+}

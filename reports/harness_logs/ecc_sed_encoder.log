@@ -1,0 +1,3 @@
+Generated /Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/ecc_sed_encoder/tb.v
+ecc_sed_encoder: pass=1 fail=30 compile_failed=0
+Wrote harness summary to /Users/ardasuhedar/Desktop/google-track-agent/reports/harness_runs/ecc_sed_encoder.json

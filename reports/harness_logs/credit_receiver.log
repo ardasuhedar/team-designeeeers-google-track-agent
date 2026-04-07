@@ -1,0 +1,3 @@
+Generated /Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/credit_receiver/tb.v
+credit_receiver: pass=5 fail=26 compile_failed=0
+Wrote harness summary to /Users/ardasuhedar/Desktop/google-track-agent/reports/harness_runs/credit_receiver.json

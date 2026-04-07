@@ -1,0 +1,3 @@
+Generated /Users/ardasuhedar/Desktop/google-track-agent/workspace/harness_generated/enc_bin2onehot/tb.v
+enc_bin2onehot: pass=1 fail=30 compile_failed=0
+Wrote harness summary to /Users/ardasuhedar/Desktop/google-track-agent/reports/harness_runs/enc_bin2onehot.json

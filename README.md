@@ -48,6 +48,8 @@ For each visible Google Track problem, we want to:
 - `workspace/`: scratch space for local problem-specific working files
 - `external/`: documentation for connecting this repo to the separate benchmark repo
 - `examples/comparator/`: preserved toy prototype example for reference only
+- `test_harness/`: benchmark-style generation and evaluation utilities
+- `scripts/`: wrapper scripts for the harness-style workflow
 - `run_eval.py`: generic evaluator for a generated testbench and an RTL directory
 - `run_pipeline.sh`: wrapper script for running a local experiment
 
@@ -100,6 +102,42 @@ Do not modify files in the benchmark repository. Treat it as an external dataset
 
 4. If multiple candidates still pass, refine the testbench and rerun the evaluator.
 
+## Test Harness Workflow
+
+This repository also supports a benchmark-style Google Track workflow under `test_harness/`.
+This is useful when you want a structure closer to the professor-provided harness while still keeping the benchmark repository external.
+
+The harness workflow is:
+
+1. Read one or more external problem folders containing `specification.md` and `mutant_*.v`.
+2. Generate a complete local `tb.v` for each problem with `test_harness/generate_testbenches.py`.
+3. Evaluate each generated testbench against the corresponding mutants with `test_harness/run_evaluation.py`.
+
+Portable example:
+
+```bash
+export BENCHMARK_ROOT=/path/to/Google-Verification-ICLAD25-Hackathon
+scripts/run_pipeline.sh
+```
+
+This wrapper uses:
+
+- `BENCHMARK_ROOT/visible_problems` as the external dataset by default
+- `workspace/harness_generated/` for locally generated harness testbenches
+- `reports/harness_summary.json` for aggregated harness results
+
+You can also point the harness at a different external problem root:
+
+```bash
+PROBLEMS_FOLDER=$BENCHMARK_ROOT/visible_problems scripts/run_pipeline.sh
+```
+
+For a quick compile-only sanity check of one generated harness testbench:
+
+```bash
+scripts/compile_smoke_test.sh $BENCHMARK_ROOT/visible_problems/counter
+```
+
 ## Concrete Example: `counter`
 
 Visible problem path:
@@ -144,8 +182,32 @@ The file `generated/tb.v` is problem-specific and reflects only the current acti
 This repository does not rely on one fixed reusable testbench across all Google Track problems.
 Instead, the workflow regenerates a new Verilog testbench for each selected problem based on the active brief in `specs/problem.txt` and the corresponding external benchmark reference.
 
+The same idea also applies to the benchmark-style harness workflow.
+The harness generates a separate local `tb.v` per problem under `workspace/harness_generated/` rather than reusing one fixed testbench across all problems.
+
+## Benchmark Coverage Summary
+
+All visible Google Track problem families in the benchmark repository are now supported by the local harness workflow.
+
+The strongest current harness results were obtained on:
+
+- `counter`
+- `ecc_sed_encoder`
+- `enc_bin2gray`
+- `enc_bin2onehot`
+- `fifo_flops`
+
+Some problem families are currently only moderately or weakly discriminative and still need stronger problem-specific testbenches:
+
+- `credit_receiver`
+- `lfsr`
+- `cdc_fifo_flops_push_credit`
+- `shift_left`
+- `shift_right`
+
 ## Notes
 
 - The files in `examples/comparator/` are preserved from the initial toy prototype.
 - The evaluator no longer assumes a specific comparator design or a fixed toy RTL layout.
 - `reports/project_refactor_plan.md` records the migration from the prototype to this main project repo.
+- `reports/harness_migration_notes.md` summarizes the added benchmark-style harness workflow.
