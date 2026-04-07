@@ -1,0 +1,24 @@
+Topic: AI for Design Verification (Google Track)
+
+Task:
+Create a Verilog testbench for a 4-bit comparator.
+
+Module behavior:
+- Inputs:
+  - A[3:0]
+  - B[3:0]
+- Outputs:
+  - EQ: asserted high when A is equal to B
+  - GT: asserted high when A is greater than B
+  - LT: asserted high when A is less than B
+
+Behavioral requirements:
+- The comparison is unsigned.
+- Exactly one of EQ, GT, or LT should be high for every valid input combination.
+- If A == B, then EQ=1, GT=0, LT=0.
+- If A > B, then EQ=0, GT=1, LT=0.
+- If A < B, then EQ=0, GT=0, LT=1.
+
+Verification objective:
+- The generated testbench should check representative and edge-case input pairs.
+- The testbench should be strong enough to accept a correct comparator RTL and reject incorrect variants whenever possible.

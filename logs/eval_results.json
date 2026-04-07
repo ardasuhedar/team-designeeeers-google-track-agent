@@ -1,0 +1,870 @@
+[
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_0.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_0.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_0.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_0.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_1.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_1.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_1.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by three (before rising edge): value_next expected 10 got 8\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 31000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_1.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_10.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_10.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_10.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_10.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_11.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_11.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_11.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "TESTS PASSED\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:254: $finish called at 256000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_11.out"
+      ]
+    },
+    "status": "pass"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_12.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_12.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_12.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after simultaneous incr and decr net minus two (before rising edge): value_next expected 7 got 6\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 71000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_12.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_13.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_13.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_13.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_13.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_14.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_14.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_14.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_14.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_15.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_15.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_15.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 2\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_15.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_16.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_16.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_16.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_16.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_17.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_17.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_17.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_17.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_18.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_18.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_18.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after reinit to zero (after rising edge): value expected 0 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:91: $finish called at 236000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_18.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_19.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_19.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_19.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_19.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_2.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_2.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_2.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_2.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_20.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_20.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_20.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_20.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_21.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_21.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_21.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after decrement by two (after rising edge): value_next expected 6 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 46000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_21.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_22.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_22.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_22.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_22.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_23.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_23.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_23.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after decrement by two (after rising edge): value expected 8 got 10\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:91: $finish called at 46000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_23.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_24.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_24.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_24.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_24.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_25.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_25.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_25.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after underflow wraps 1 minus 3 to 9 (before rising edge): value_next expected 9 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 151000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_25.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_26.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_26.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_26.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_26.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_27.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_27.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_27.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_27.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_28.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_28.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_28.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_28.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_29.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_29.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_29.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_29.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_3.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_3.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_3.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 3\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_3.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_30.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_30.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_30.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 14\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_30.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_4.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_4.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_4.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_4.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_5.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_5.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_5.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 6\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_5.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_6.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_6.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_6.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after increment by one (after rising edge): value_next expected 8 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 26000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_6.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_7.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_7.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_7.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 2\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_7.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_8.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_8.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_8.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_8.out"
+      ]
+    },
+    "status": "fail"
+  },
+  {
+    "rtl_file": "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_9.v",
+    "compile": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "command": [
+        "iverilog",
+        "-g2012",
+        "-o",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_9.out",
+        "-s",
+        "tb",
+        "/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v",
+        "/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/mutant_9.v"
+      ]
+    },
+    "simulation": {
+      "returncode": 0,
+      "stdout": "Mismatch after hold after reset (before rising edge): value_next expected 6 got 4\n/Users/ardasuhedar/Desktop/google-track-agent/generated/tb.v:100: $finish called at 11000 (1ps)\n",
+      "stderr": "",
+      "command": [
+        "vvp",
+        "/Users/ardasuhedar/Desktop/google-track-agent/logs/mutant_9.out"
+      ]
+    },
+    "status": "fail"
+  }
+]

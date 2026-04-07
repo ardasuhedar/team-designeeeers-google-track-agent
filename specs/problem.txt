@@ -1,0 +1,36 @@
+Topic: AI for Design Verification (Google Track)
+
+Problem ID:
+- counter
+
+Source:
+- Benchmark specification: `/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter/specification.md`
+
+Task Summary:
+- Verify a synchronous up/down counter with registered output `value` and combinational output `value_next`.
+
+Clocking and Control:
+- State updates happen on the rising edge of `clk`.
+- `rst` is synchronous and active high. When asserted, `value` must load `initial_value`.
+- `reinit` is also synchronous and active high. When asserted, it loads `initial_value` and overrides any concurrent increment or decrement requests.
+
+Behavior To Verify:
+- If only `incr_valid` is high, the counter increases by `incr`.
+- If only `decr_valid` is high, the counter decreases by `decr`.
+- If both `incr_valid` and `decr_valid` are high in the same cycle, the net change `incr - decr` is applied.
+- If neither valid signal is high, the counter holds its current value.
+- `incr` and `decr` are each in the range 0 to 3.
+
+Range and Wrap-Around:
+- The counter range is inclusive 0 through 10.
+- Overflow wraps around within that range.
+- Underflow also wraps around within that range.
+- Directed tests should cover boundary cases such as incrementing near 10 and decrementing near 0.
+
+Output Semantics:
+- `value` is the registered state and reflects the previous cycle's chosen operation after the next rising edge.
+- `value_next` is combinational and should show the next counter state implied by the current `value`, `reinit`, `incr_valid`, `decr_valid`, `incr`, and `decr` inputs.
+
+Verification Objective:
+- Generate a self-checking Verilog testbench that checks reset, reinitialization priority, hold behavior, increment, decrement, simultaneous increment and decrement, wrap-around, and the relationship between `value` and `value_next`.
+- The testbench should pass the correct RTL and fail incorrect RTL candidates whenever observable behavior allows it.
