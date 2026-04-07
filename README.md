@@ -34,7 +34,6 @@ For each visible Google Track problem, we want to:
 
 ## Requirements
 
-- macOS
 - Python 3
 - Icarus Verilog (`iverilog` and `vvp`)
 - Codex
