@@ -1,1 +1,7 @@
-# The current evaluator uses the Python standard library only.
+# Python dependencies
+# This prototype currently uses only Python standard library modules.
+# No third-party pip packages are required at this time.
+#
+# Required external tools (not installed via pip):
+# - Icarus Verilog: `iverilog`, `vvp`
+# - Codex
