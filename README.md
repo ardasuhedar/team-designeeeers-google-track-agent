@@ -45,6 +45,12 @@ Keep the benchmark in a separate location, for example:
 /path/to/google-track-benchmark
 ```
 
+In this project, the benchmark path convention is:
+
+```bash
+/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon
+```
+
 Then use this repository to run experiments against one visible problem at a time.
 The simplest workflow is:
 
@@ -66,6 +72,8 @@ You can also set `RTL_DIR` directly if you want to evaluate a specific RTL folde
 RTL_DIR=/path/to/google-track-benchmark/visible/problem_x/rtl ./run_pipeline.sh
 ```
 
+Do not modify files in the benchmark repository. Treat it as an external dataset and keep all generated testbenches, logs, and reports in this repository.
+
 ## Current Workflow
 
 1. Update `specs/problem.txt` with the active visible problem.
@@ -77,6 +85,35 @@ RTL_DIR=/path/to/google-track-benchmark/visible/problem_x/rtl ./run_pipeline.sh
 ```
 
 4. If multiple candidates still pass, refine the testbench and rerun the evaluator.
+
+## Concrete Example: `counter`
+
+Visible problem path:
+
+```bash
+/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter
+```
+
+Exact command used:
+
+```bash
+GOOGLE_TRACK_PROBLEM_DIR=/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter ./run_pipeline.sh
+```
+
+Outputs are written to:
+
+- `generated/tb.v`
+- `logs/eval_results.json`
+- `reports/summary.json`
+- `reports/counter_project_side_result.md`
+
+Observed result for the aligned `counter` experiment:
+
+- 31 evaluated
+- 1 passed
+- 30 failed
+- 0 compile failures
+- passing mutant: `mutant_11.v`
 
 ## Notes
 
