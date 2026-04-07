@@ -49,10 +49,10 @@ Keep the benchmark in a separate location, for example:
 /path/to/google-track-benchmark
 ```
 
-In this project, the benchmark path convention is:
+In this project, use a portable environment variable such as:
 
 ```bash
-/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon
+export BENCHMARK_ROOT=/path/to/Google-Verification-ICLAD25-Hackathon
 ```
 
 Then use this repository to run experiments against one visible problem at a time.
@@ -66,14 +66,14 @@ The simplest workflow is:
 Example:
 
 ```bash
-export GOOGLE_TRACK_PROBLEM_DIR=/path/to/google-track-benchmark/visible/problem_x
+export GOOGLE_TRACK_PROBLEM_DIR=$BENCHMARK_ROOT/visible_problems/problem_x
 ./run_pipeline.sh
 ```
 
 You can also set `RTL_DIR` directly if you want to evaluate a specific RTL folder:
 
 ```bash
-RTL_DIR=/path/to/google-track-benchmark/visible/problem_x/rtl ./run_pipeline.sh
+RTL_DIR=$BENCHMARK_ROOT/visible_problems/problem_x ./run_pipeline.sh
 ```
 
 Do not modify files in the benchmark repository. Treat it as an external dataset and keep all generated testbenches, logs, and reports in this repository.
@@ -95,13 +95,14 @@ Do not modify files in the benchmark repository. Treat it as an external dataset
 Visible problem path:
 
 ```bash
-/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter
+$BENCHMARK_ROOT/visible_problems/counter
 ```
 
 Exact command used:
 
 ```bash
-GOOGLE_TRACK_PROBLEM_DIR=/Users/ardasuhedar/Desktop/Google/problem-categories/Google-Verification-ICLAD25-Hackathon/visible_problems/counter ./run_pipeline.sh
+export BENCHMARK_ROOT=/path/to/Google-Verification-ICLAD25-Hackathon
+GOOGLE_TRACK_PROBLEM_DIR=$BENCHMARK_ROOT/visible_problems/counter ./run_pipeline.sh
 ```
 
 Outputs are written to:
