@@ -1,6 +1,10 @@
 # Google Track Verification Agent
 
-This repository is the main mini-project repo for Topic 2: AI for Design Verification (Google Track).
+Team DesignEEErs
+
+Codex-based Verilog testbench generation and evaluation for visible Google Track verification problems.
+
+This repository is the project repository of Team DesignEEErs for Topic 2: AI for Design Verification (Google Track).
 Its purpose is to drive a Codex-based workflow that reads a natural language hardware problem, generates a Verilog testbench, and evaluates that testbench against RTL candidates from the professor-provided benchmark repository.
 
 The benchmark repository is treated as an external dataset.
